@@ -1,4 +1,6 @@
-FROM postgres:9.5.3
+FROM postgres:15.1
+
+ENV POSTGRES_HOST_AUTH_METHOD=trust
 
 MAINTAINER "Ivan Ermilov <ivan.s.ermilov@gmail.com>"
 
